@@ -26,9 +26,9 @@ import tools from "../Images/tools.png"
 import map from "../Images/mapa.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import ContactForm from '../Componentes/ContactForm/ContactForm'
-import CV from "../Documents/CV Boris Javier Caiza en-US-1-3.pdf"
+import CV from "../Documents/CV BORIS CAIZA EN.pdf"
 import CVES from "../Documents/CV Boris Javier Caiza.pdf"
-import HorrorGame from "../Documents/HorroGame.apk"
+//import HorrorGame from "../Documents/HorroGame.apk"
 import fps from "../Documents/fps movil.apk"
 import frogApp from "../Documents/Frog.apk"
 
@@ -350,7 +350,7 @@ export default function Inicio() {
             </CardContent>
             <CardActions>
               <a target="_blank" href="https://boriscai.itch.io/slender"><Button size="small">Play in the browser</Button></a>
-              <a href={HorrorGame} download><Button size="small">Download the apk for Android cellphones</Button></a>
+              <a href='#' download><Button size="small">Download the apk for Android cellphones</Button></a>
             </CardActions>
           </Card>
         </div>
